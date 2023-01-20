@@ -4,3 +4,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Regole Generali */
+body {
+    background: -webkit-linear-gradient(315deg,#42d392 25%,#647eff);
+}
+
+#app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+.text-white {
+    color: #fff;
+}
